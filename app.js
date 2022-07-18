@@ -148,7 +148,4 @@ app.get('/about',(req,res) =>{
   res.render('about');
 });
 
-app.listen(3000,() => console.log('server is running on port 3000'));
-
-
-//note use all while node6 is as your main folder
+app.listen(3000,() => console.log('server is running on mongodb.net'));
